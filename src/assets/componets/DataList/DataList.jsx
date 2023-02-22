@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 
+
 const DataList = ({ captureValue }) => {
   const color = (colors) => {
     if (colors === "Alive") {
