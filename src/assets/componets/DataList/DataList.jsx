@@ -21,12 +21,15 @@ const DataList = ({ captureValue }) => {
     }
   };
   return (
+    <>
+    <hr/>
     <div className="grid grid-cols-3 max-xl:grid-cols-2 max-lg:grid-cols-1 gap-10 max-lg:gap-1  ">
       {captureValue.map((el) => (
         <div
           className="flex mt-5  py-4  max-lg:px-5 px-4 border-solid border-4   rounded-2xl "
           key={el.id}
         >
+          
           <div>
             <p
               className={`text-center border-solid border-2 rounded-2xl border-black mb-2 ${color(el.status)}`}
@@ -47,6 +50,7 @@ const DataList = ({ captureValue }) => {
         </div>
       ))}
     </div>
+    </>
   );
 };
 export default DataList;

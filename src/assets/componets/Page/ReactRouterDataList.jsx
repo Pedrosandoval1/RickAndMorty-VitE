@@ -3,6 +3,7 @@ import PictureDataList from "./PictureDataList";
 import Character from "./Character";
 import Error404 from "./Error404";
 
+
 const ReactRouterDataList = ({ captureValue, info, DataImg }) => {
   return (
     <div>

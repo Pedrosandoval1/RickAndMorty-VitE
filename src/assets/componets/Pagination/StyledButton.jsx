@@ -11,4 +11,4 @@ export const ButtonStyled = styled.button`
   &:active {
     color: black;
   }
-`;
+`
